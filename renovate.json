@@ -5,8 +5,7 @@
       ":timezone(Asia/Tokyo)"
   ],
   "enabledManagers": [
-      "gradle",
-      "npm"
+      "gradle"
   ],
   "labels": [
       "dependencies",

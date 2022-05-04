@@ -11,9 +11,6 @@
       "dependencies",
       "renovate"
   ],
-  "schedule": [
-      "before 8am on Monday"
-  ],
   "dependencyDashboard": true,
   "packageRules": [
       {

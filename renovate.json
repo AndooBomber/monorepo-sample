@@ -14,15 +14,6 @@
   "dependencyDashboard": true,
   "packageRules": [
       {
-          "matchDepTypes": [
-              "devDependencies"
-          ],
-          "automerge": true,
-          "major": {
-              "automerge": false
-          }
-      },
-      {
           "matchUpdateTypes": [
               "minor",
               "patch",

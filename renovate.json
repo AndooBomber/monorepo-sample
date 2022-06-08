@@ -4,6 +4,9 @@
       "config:base",
       ":timezone(Asia/Tokyo)"
   ],
+  "automergeSchedule": [
+    "before 5am on Thursday"
+  ],
   "enabledManagers": [
       "gradle"
   ],
@@ -22,8 +25,7 @@
               "pin",
               "digest"
           ],
-          "automerge": true,
-          "platformAutomerge": true
+          "automerge": true
       }
   ]
 }

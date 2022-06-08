@@ -4,14 +4,19 @@
       "config:base",
       ":timezone(Asia/Tokyo)"
   ],
+  "automergeSchedule": [
+    "before 4am on Thursday"
+  ],
   "enabledManagers": [
-      "npm"
+      "gradle"
   ],
   "labels": [
       "dependencies",
       "renovate"
   ],
   "dependencyDashboard": true,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 5,
   "packageRules": [
       {
           "matchUpdateTypes": [
@@ -20,7 +25,7 @@
               "pin",
               "digest"
           ],
-          "automerge": true
+          "platformAutomerge": true
       }
   ]
 }

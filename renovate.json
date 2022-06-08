@@ -5,7 +5,7 @@
       ":timezone(Asia/Tokyo)"
   ],
   "enabledManagers": [
-      "gradle"
+      "npm"
   ],
   "labels": [
       "dependencies",
@@ -20,7 +20,7 @@
               "pin",
               "digest"
           ],
-          "platformAutomerge": true
+          "automerge": true
       }
   ]
 }

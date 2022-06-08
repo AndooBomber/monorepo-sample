@@ -5,7 +5,7 @@
       ":timezone(Asia/Tokyo)"
   ],
   "automergeSchedule": [
-    "before 5am on Thursday"
+    "after 6am on Thursday"
   ],
   "enabledManagers": [
       "gradle"
@@ -27,5 +27,6 @@
           ],
           "automerge": true
       }
-  ]
+  ],
+  "platformAutomerge": true
 }

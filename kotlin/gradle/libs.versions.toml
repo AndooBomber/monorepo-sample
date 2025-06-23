@@ -1,7 +1,7 @@
 [versions]
 ktor = "1.6.8"
 kotlin = "1.7.10"
-logback = "1.2.11"
+logback = "1.5.18"
 koin = "3.1.6"
 mockk = "1.14.4"
 prometheus = "1.6.3"

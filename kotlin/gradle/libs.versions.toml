@@ -4,7 +4,7 @@ kotlin = "1.9.25"
 logback = "1.5.18"
 koin = "3.5.6"
 mockk = "1.14.5"
-prometheus = "1.15.2"
+prometheus = "1.17.1"
 
 [libraries]
 # ktor
